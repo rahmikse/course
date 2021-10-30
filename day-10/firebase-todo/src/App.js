@@ -18,7 +18,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import {
   LOGIN_ERROR,
   LOGIN_LOADING,
-  LOGIN_SUCCESS,
+  LOGIN_SUCCESS, 
   LOGOUT,
 } from "./redux/actions";
 const auth = getAuth();
